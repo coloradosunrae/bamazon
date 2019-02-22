@@ -17,3 +17,5 @@ Displays multiple options
  
 [How-TO-Video](bamazon/info.mov)
 
+Updated Portfolio:
+https://coloradosunrae.github.io/me/.

@@ -27,7 +27,7 @@ Displays a list of items in the inventory, takes in orders from customers and de
 There is a prompt that asks if you want to buy anything. If no it exists. 
 If you click yes it asks what you would like to buy.
 
-![List](images/image1.png)
+![2](images/image1.png)
 
 You can use the arrors or type in a number to choose the product. 
 

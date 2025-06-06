@@ -87,7 +87,7 @@ function buyProducts() {
         if (chosenItem.stock_quantity > parseInt(answer.Amount)) {
 
           var newAmount = chosenItem.stock_quantity - answer.Amount;
-          var newPirce = chosenItem.price * answer.Amount;
+          var newPrice = chosenItem.price * answer.Amount;
        
           connection.query(
             "UPDATE products SET ? WHERE ?",
@@ -101,7 +101,7 @@ function buyProducts() {
             ],
             function(error) {
               if (error) throw err;
-              console.log("Thank you for purchasing " + answer.Amount + " " + answer.choice + " for the Amount of $" + newPirce + "!" );
+              console.log("Thank you for purchasing " + answer.Amount + " " + answer.choice + " for the Amount of $" + newPrice + "!" );
               console.log("-----------------------------------");
               start();
             }
